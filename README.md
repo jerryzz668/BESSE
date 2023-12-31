@@ -1,10 +1,6 @@
-pip install torch transformers tqdm
-
-该代码仅支持单GPU训练。
-
 # Be Everyone's Seq2Seq Engine
 ---
-本项目提供一个通用的基于Bert的EncoderDecoderModel模型，实现seq2seq。
+本项目提供一个通用的基于Bert的EncoderDecoderModel模型，实现seq2seq。该项目目前仅支持单GPU训练。
 
 ## 数据集
 两个文件，可以理解为对联，一个上联，一个下联。如：
